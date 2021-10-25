@@ -56,6 +56,7 @@ export class AppController {
       sameSite: 'none',
       httpOnly: true,
       secure: true,
+      maxAge: 6000000,
     });
     return { access_token };
   }
